@@ -45,6 +45,12 @@ A = SquareMatrix([[1, 2], [4, 8]])
 print(A ** 4)  # [[729, 1458], [2916, 5832]]
 ```
 
+To get the trace of a square matrix, use the `trace()` method. For example:
+```
+A = SquareMatrix([[20, 30], [5, -2]])
+print(A.trace())  # 18
+```
+
 To solve a system of linear equations, define the corresponding matrix of coefficients (left side of augmented matrix) and use the `solve(B)` method, where B is a list, the right side of augmented matrix. For example:
 ```
 A = Matrix([[1, 0, 0], [0, 6, 3], [0, 1, 0]])

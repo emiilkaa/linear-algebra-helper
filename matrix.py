@@ -116,6 +116,9 @@ class SquareMatrix(Matrix):
             p = self ** (n // 2)
             return p * p
 
+    def trace(self):
+        return sum([self.array[i][i] for i in range(self.size()[0])])
+
 
 if __name__ == '__main__':
     exec(stdin.read())
