@@ -12,7 +12,7 @@ B = Matrix([0], [1], [2])
 ```
 This code defines the following matrices:
 
-![equation](https://bit.ly/32pknxI)
+![equation](https://i.ibb.co/HdDWj5Y/1.gif)
 
 To get the matrix size, use the `size()` method. For example:
 ```
@@ -53,6 +53,6 @@ print(answer)  # [1.0, 5.0, -3.0]
 ```
 This code solves the following system of linear equations:
 
-![equation](https://bit.ly/3k9OL4Y)
+![equation](https://i.ibb.co/187WYQK/2.gif)
 
 If a system of linear equations has no solutions or infinitely many solutions, the program will raise an exception with this message.
