@@ -8,7 +8,7 @@ To use the program you just have to open the `matrix.py` file and write necessar
 To define a matrix, enter it in the format of a list of lists, where lists are the rows of the matrix. For example:
 ```
 A = Matrix([[1, 0], [0, 1]])
-B = Matrix([0], [1], [2])
+B = Matrix([[0], [1], [2]])
 ```
 This code defines the following matrices:
 
